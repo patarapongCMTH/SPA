@@ -13,7 +13,7 @@ function App() {
 
   const callApi = async () => {
     try {
-      const res = await axios.get("https://3ofwrsst8j.execute-api.ap-southeast-1.amazonaws.com/patarapong_spa_dev/koiking",
+      const res = await axios.get("https://ayd5firc39.execute-api.ap-southeast-1.amazonaws.com/SPA_Test/Dogs",
         {
           params: {
             page: currentPage + 1,
